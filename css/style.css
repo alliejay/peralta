@@ -38,6 +38,7 @@ p {
   font-size: .65em;
 }
 
+/****************/
 /* NAVS */
 
 nav ul, nav li {
@@ -197,6 +198,101 @@ nav li {
   position: relative;
 }
 
+#skatercol1 {
+  width: 67.5%;
+  display: inline-block;
+  float: left;
+}
+
+#skatercol2 {
+  width: 32%;
+  display: inline-block;
+  float: left;
+}
+
+.small {
+  width: 45%;
+  height: 160px;
+  float: left;
+  display: inline-block;
+  overflow: hidden;
+  margin: 6px;
+  border: 5px white solid;
+}
+
+.lance {
+  background-image: url(../assets/sk8er-4.png);
+  background-repeat: no-repeat;
+  background-size: 140%;
+  background-position: right;
+  position: relative;
+}
+
+.rodney {
+  background-image: url(../assets/sk8er-3.png);
+  background-repeat: no-repeat;
+  background-size: 140%;
+  background-position: left;
+  position: relative;
+}
+
+.steve {
+  width: 94.5%;
+  height: 160px;
+  float: left;
+  clear: both;
+  overflow: hidden;
+  margin: 6px;
+  border: 5px white solid;
+  background-image: url(../assets/sk8er-1.png);
+  background-repeat: no-repeat;
+  background-size: 125%;
+  background-position: center;
+  position: relative;
+}
+
+.tommy {
+  width: 96%;
+  height: 340px;
+  float: left;
+  overflow: hidden;
+  margin-top: 6px;
+  border: 5px white solid;
+  background-image: url(../assets/sk8er-2.png);
+  background-repeat: no-repeat;
+  background-size: 265%;
+  background-position: 85% 30%;
+  position: relative;
+}
+
+.skatername {
+  color: white;
+  font-family: 'Paytone One', sans-serif;
+  font-size: 2em;
+  text-align: center;
+  position: absolute;
+}
+
+.lance p {
+  top: 15%;
+  left: 2%;
+}
+
+.rodney p {
+  top: 18%;
+  left: 15%;
+}
+
+.steve p {
+  top: 25%;
+  left: 20%;
+}
+
+.tommy p {
+  top: 30%;
+  left: 2%;
+}
+
 #boards {
   position: absolute;
   left: -180px;
@@ -225,79 +321,7 @@ nav li {
   left: 149px;
 }
 
-#lance {
-  width: 30.5%;
-  height: 160px;
-  background-image: url(../assets/sk8er-4.png);
-  background-repeat: no-repeat;
-  background-size: 140%;
-  background-position: right;
-  display: inline-block;
-  border: 5px solid white;
-  overflow: hidden;
-  margin: 6px;
-  padding: 0;
-  position: relative;
-}
-
-#rodney {
-  width: 30.5%;
-  height: 160px;
-  background-image: url(../assets/sk8er-3.png);
-  background-repeat: no-repeat;
-  background-size: 140%;
-  background-position: left;
-  display: inline-block;
-  border: 5px solid white;
-  overflow: hidden;
-  margin: 6px 6px 6px 2px;
-  padding: 0;
-  position: relative;
-}
-
-#tommy {
-  width: 30%;
-  height: 340px;
-  background-image: url(../assets/sk8er-2.png);
-  background-repeat: no-repeat;
-  background-size: 265%;
-  background-position: 85% 30%;
-  display: inline-block;
-  border: 5px solid white;
-  overflow: hidden;
-  margin: 6px 6px 6px 2px;
-  padding: 0;
-  position: relative;
-}
-
-#lance, #rodney, #tommy {
-  vertical-align: top;
-}
-
-#steve {
-  width: 64%;
-  height: 160px;
-  background-image: url(../assets/sk8er-1.png);
-  background-repeat: no-repeat;
-  background-size: 115%;
-  background-position: center;
-  display: inline-block;
-  border: 5px solid white;
-  overflow: hidden;
-  margin: 6px 6px 6px 2px;
-  padding: 0;
-  position: relative;
-  bottom: 180px;
-  left: 3px;
-}
-
-.new p {
-  color: white;
-  font-family: 'Paytone One', sans-serif;
-  font-size: 2em;
-  text-align: center;
-}
-
+/*
 #lance p {
   position: absolute;
   bottom: 30%;
@@ -321,7 +345,7 @@ nav li {
   position: absolute;
   bottom: 40%;
   left: 25%;
-}
+}*/
 
 
 /* SKATEBOARDS */
