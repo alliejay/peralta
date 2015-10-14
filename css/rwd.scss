@@ -260,6 +260,33 @@
     display: none;
   }
 
+  .lance p {
+      position: absolute;
+      top: 45%;
+      left: 5%;
+    }
+
+  .rodney p {
+      position: absolute;
+      top: 10%;
+      left: 45%;
+    }
+
+  .tommy p {
+      position: absolute;
+      top: 45%;
+      left: 5%;
+    }
+
+  .steve {
+    background-size: 125%;
+    p {
+      position: absolute;
+      top: 10%;
+      left: 45%;
+    }
+  }
+
   .skateboards {
     display: none;
   }
@@ -271,7 +298,7 @@
   }
 
   .phoneSkateboards {
-    height: 300px;
+    height: 250px;
     margin: 1% auto 1% auto;
     width: 100%;
     background-color: white;
@@ -286,9 +313,9 @@
   }
 
   .item {
-    height: 250px;
+    height: 200px;
     &:hover {
-      height: 290px;
+      height: 225px;
     }
   }
 } //////// END OF 556px RULES
@@ -303,19 +330,18 @@
     height: 220px;
   }
 
+  #panelBoards p {
+    font-size: 1.15em;
+  }
+
+  .lance, .rodney, .tommy, .steve {
+    p {
+      font-size: 1.5em;
+    }
+  }
+
   .col2 {
     height: 185px;
-  }
-
-  .phoneSkateboards {
-    height: 250px;
-  }
-
-  .item {
-    height: 200px;
-    &:hover {
-      height: 225px;
-    }
   }
 
 }
