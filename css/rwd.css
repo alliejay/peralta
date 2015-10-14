@@ -1,0 +1,192 @@
+@media (max-width: 1160px) {
+  .top {
+    max-height: 250px; }
+  #logo {
+    top: 20%; }
+  #mainnav {
+    font-size: .6em; }
+  h2 {
+    font-size: 1em; }
+  .col3 {
+    height: 300px; }
+    .col3 a {
+      font-size: .75em; }
+    .col3 p {
+      margin-bottom: 10px; }
+  .small, .steve {
+    height: 145px; }
+  .tommy {
+    height: 308px; }
+  .images {
+    height: 335px; }
+  .skatername {
+    font-size: 1.85em; } }
+
+@media (max-width: 945px) {
+  .wrapper {
+    width: 80%; }
+  #mainnav {
+    font-size: .7em; }
+  #boards {
+    display: none; }
+  #panelBoards {
+    display: block; }
+  .skateboards {
+    margin-top: 2%; }
+  .top {
+    max-height: 200px; }
+  .small, .steve {
+    height: 135px; }
+  .tommy {
+    height: 290px; }
+  .images {
+    height: 325px; }
+  .skatername {
+    font-size: 1.7em; } }
+
+@media (max-width: 779px) {
+  .navitem {
+    width: 21%; }
+    .navitem:hover {
+      width: 23%; } }
+
+@media (max-width: 742px) {
+  .wrapper {
+    width: 90%; }
+  #mainnav {
+    font-size: .6em; }
+  .navitem {
+    width: 20%; }
+    .navitem:hover {
+      width: 23%; }
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    -webkit-columns: 1;
+    -moz-columns: 1;
+    columns: 1;
+    -webkit-column-gap: 0;
+    -moz-column-gap: 0;
+    column-gap: 0;
+    -webkit-column-rule: 0;
+    -moz-column-rule: 0;
+    column-rule: 0; }
+  .col3 {
+    display: block;
+    height: 175px;
+    margin-bottom: 10px;
+    padding-bottom: 5px; }
+  .images {
+    display: none; }
+  .phoneImages {
+    width: 100%;
+    display: inline-block; }
+  #skatercol1 {
+    width: 98%;
+    margin: 0 auto; }
+  .small, .tommy, .steve {
+    width: 100%;
+    display: block;
+    background-size: cover;
+    height: 135px;
+    margin: 5px auto 5px auto; }
+    .small p, .tommy p, .steve p {
+      font-size: 2em; }
+  .lance {
+    position: relative; }
+    .lance p {
+      position: absolute;
+      top: 20%; }
+  .rodney {
+    position: relative; }
+    .rodney p {
+      position: absolute;
+      top: 20%;
+      left: 45%; }
+  .tommy {
+    position: relative; }
+    .tommy p {
+      position: absolute;
+      top: 20%; }
+  .steve {
+    position: relative; }
+    .steve p {
+      position: absolute;
+      top: 20%;
+      left: 45%; }
+  .col2 {
+    display: block;
+    width: 90%;
+    margin: 5px auto 10px auto;
+    padding: 10px 0;
+    height: 145px; }
+  .col2, form {
+    vertical-align: none; }
+  form {
+    margin: 0; }
+    form ul {
+      width: 90%;
+      margin: 0px auto 10px auto;
+      padding-left: 0; } }
+
+@media (max-width: 556px) {
+  #socialnav {
+    display: none; }
+  #mainnav {
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 13px auto;
+    width: 100%;
+    font-size: 1em; }
+  .navitem {
+    width: 80%; }
+    .navitem:hover {
+      width: 80%; }
+  .phoneLogo {
+    margin: 7px auto;
+    display: block;
+    width: 90%;
+    height: 175px;
+    text-align: center; }
+    .phoneLogo img {
+      width: 74%;
+      margin: 10px auto; }
+  .top {
+    display: none; }
+  .skateboards {
+    display: none; }
+  #phoneCol1 {
+    display: block;
+    width: 100%;
+    margin: 1% auto 1% auto; }
+  .phoneSkateboards {
+    height: 300px;
+    margin: 1% auto 1% auto;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    overflow: hidden;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px grey solid; }
+  .item {
+    height: 250px; }
+    .item:hover {
+      height: 290px; } }
+
+@media (max-width: 434px) {
+  .phoneLogo img {
+    width: 90%; }
+  .col3 {
+    height: 220px; }
+  .col2 {
+    height: 185px; }
+  .phoneSkateboards {
+    height: 250px; }
+  .item {
+    height: 200px; }
+    .item:hover {
+      height: 225px; } }

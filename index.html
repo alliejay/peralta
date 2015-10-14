@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+    <title>Powell Peralta | Skateboards</title>
     <link href='https://fonts.googleapis.com/css?family=Spinnaker|Paytone+One' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/normalize.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
-    <title>Powell Peralta | Skateboards</title>
+    <link rel="stylesheet" href="css/rwd.css" media="screen" title="no title" charset="utf-8">
   </head>
 
   <body>
+    <div class="wrapper">
     <header>
       <nav id="socialnav">
         <ul>
@@ -19,6 +21,11 @@
           <li class="social"><a href="https://www.youtube.com/user/PowellPeraltaTV"><img src="assets/youtube.png" alt="Youtube" /></a></li>
         </ul>
       </nav>
+
+      <section class="phoneLogo">
+        <img src="assets/peralta-logo.png" alt="Logo" />
+      </section>
+
       <nav id="mainnav">
           <a href="" class="navitem"> - SK8T NEWS - </a>
           <a href="" class="navitem"> - SKATEBOARDERS - </a>
@@ -38,7 +45,7 @@
         <p>
           It was just over 90 desgrees in Los Angeles, but that didn't stop throngs from coming out to celebrate 10th Annual Tony Hawk's Stand Up for Skateparks Benefits by SLS Hotel & Casino Las Vegas on Saturday at the Green Acres Estate in Beverly Hills.
         </p>
-        <a href="#">[ READ MORE ]</a>
+        <span><a href="#">[ READ MORE ]</a></span>
       </section>
       <section class="col3">
         <h2>Rodney Mullen: Pop an ollie and innovate! (TED Talk)</h2>
@@ -49,16 +56,19 @@
         <span><a href="#">[ READ MORE ]</a></span>
       </section>
       <section class="col3">
-        <h2>Ray Barbee Talks <br> 'Ban This'</h2>
+        <h2>Ray Barbee Talks 'Ban This'</h2>
         <h3>Oct 4, 2013</h3>
         <p>
           Since filming is in full swing for the Vans video Adventures With Chris has taken the opportunity to sit some of the team down to look behind the skating of some of their earlier parts. Today we sit down with Ray Barbee, one of the smoothest guys to ever stop on a skateboard and Chris' childhood idol...
         </p>
-        <a href="#">[ READ MORE ]</a>
+        <span><a href="#">[ READ MORE ]</a></span>
       </section>
     </div>
 
-    <div class="new">
+    <div class="images">
+      <section id="panelBoards">
+        <p> SKATEBOARDERS </p>
+      </section>
       <section id="skatercol1">
         <section class="small lance">
           <p class="skatername">LANCE MOUNTAIN</p>
@@ -74,19 +84,35 @@
         <section class="tommy">
           <p class="skatername">TOMMY GUERRERO</p>
         </section>
-
       </section>
-
-
-
-      <!-- <section id="boards">
+      <section id="boards">
           <p> <br>SKATEBOARDERS <br></p>
           <section class="arrowright">
           </section>
-        </section> -->
-
+      </section>
       </div>
-    </div>
+
+      <!-- FOR SMALL PX SIZE ONLY -->
+      <div class="phoneImages">
+        <section id="panelBoards">
+          <p> SKATEBOARDERS </p>
+        </section>
+        <section id="skatercol1">
+          <section class="small lance">
+            <p class="skatername">LANCE MOUNTAIN</p>
+          </section>
+          <section class="small rodney">
+            <p class="skatername">RODNEY MULLEN</p>
+          </section>
+          <section class="tommy">
+            <p class="skatername">TOMMY GUERRERO</p>
+          </section>
+          <section class="steve">
+            <p class="skatername">STEVE CABALLERO</p>
+          </section>
+        </section>
+      </div>
+      <!-- END -->
 
     <div class="col1">
       <section class="skateboards">
@@ -102,6 +128,28 @@
         <img src="assets/sk8-10.png" alt="skateboard" class="item" />
       </section>
     </div>
+
+    <!-- SMALL PX SIZE ONLY -->
+    <div id="phoneCol1">
+      <section class="phoneSkateboards">
+        <img src="assets/sk8-1.png" alt="skateboard" class="item" />
+        <img src="assets/sk8-2.png" alt="skateboard" class="item" />
+        <img src="assets/sk8-3.png" alt="skateboard" class="item" />
+        <img src="assets/sk8-4.png" alt="skateboard" class="item" />
+        <img src="assets/sk8-5.png" alt="skateboard" class="item" />
+      </section>
+      <section class="phoneSkateboards">
+        <img src="assets/sk8-6.png" alt="skateboard" class="item" />
+        <img src="assets/sk8-7.png" alt="skateboard" class="item" />
+        <img src="assets/sk8-8.png" alt="skateboard" class="item" />
+        <img src="assets/sk8-9.png" alt="skateboard" class="item" />
+        <img src="assets/sk8-10.png" alt="skateboard" class="item" />
+      </section>
+    </div>
+    <!-- END -->
+
+
+
 
     <div class="col1 contactform">
       <section class="col2">
@@ -132,6 +180,6 @@
           </form>
         </section>
       </div>
-
+    </div>
   </body>
 </html>

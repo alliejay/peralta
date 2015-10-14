@@ -1,5 +1,10 @@
-header {
+.wrapper {
   width: 60%;
+  margin: 0 auto;
+  transition: all 1s ease-in-out; }
+
+header {
+  width: 100%;
   margin: 0 auto; }
 
 body {
@@ -29,6 +34,9 @@ h3 {
 p {
   font-size: .65em; }
 
+.phoneLogo {
+  display: none; }
+
 nav ul, nav li {
   list-style-type: none;
   display: inline-block;
@@ -43,10 +51,10 @@ nav li {
 #socialnav {
   float: right; }
   #socialnav img {
-    width: 40px;
+    width: 30px;
     transition: all 0.5s ease-in-out; }
     #socialnav img:hover {
-      width: 47px; }
+      width: 37px; }
   #socialnav a {
     position: relative;
     bottom: -3px; }
@@ -70,7 +78,7 @@ nav li {
     font-weight: normal;
     text-align: center;
     font-family: "Spinnaker", sans-serif;
-    font-size: .8em; }
+    font-size: .7em; }
     #mainnav a:visited {
       color: white; }
     #mainnav a:hover {
@@ -81,11 +89,11 @@ nav li {
   padding: 5px 10px;
   flex-basis: 125px 2;
   transition: all 1s ease-in-out;
-  width: 150px;
+  width: 20%;
   border-bottom: 3px grey solid; }
   .navitem:hover {
     background-color: #6A0005;
-    width: 200px;
+    width: 25%;
     border-bottom: 3px lightgrey solid; }
 
 .top {
@@ -98,7 +106,8 @@ nav li {
   background-size: 155%;
   border: 5px white solid;
   overflow-y: hidden;
-  position: relative; }
+  position: relative;
+  transition: all 1s ease-in-out; }
 
 .grid {
   max-width: 100%;
@@ -106,12 +115,12 @@ nav li {
 
 #logo {
   position: absolute;
-  top: 62px;
-  left: 12px;
+  top: 25%;
+  left: 5%;
   max-width: 40%; }
 
 .container {
-  width: 60%;
+  width: 100%;
   margin: 0 auto;
   -webkit-columns: 3;
   -moz-columns: 3;
@@ -124,27 +133,38 @@ nav li {
   column-rule: 0; }
 
 .col3 {
-  max-width: 250px;
+  width: 100%;
   height: 285px;
   background-color: white;
   overflow: scroll;
   text-align: center;
   padding: 0;
   margin: 0 6px;
-  border-bottom: 3px grey solid; }
+  border-bottom: 3px grey solid;
+  transition: all 1s ease-in-out; }
   .col3 h2, .col3 h3, .col3 p {
-    text-align: left; }
+    text-align: left;
+    margin: 10px 10px 5px 10px; }
   .col3 p {
     letter-spacing: .05em;
-    line-height: 1.75em;
+    line-height: 1.65em;
     margin-bottom: 20px;
     color: grey; }
 
-.new {
-  width: 60%;
+.images {
+  width: 100%;
   margin: 0 auto;
-  height: 360px;
-  position: relative; }
+  height: auto;
+  position: relative;
+  transition: all 1s ease-in-out; }
+
+.phoneImages {
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+  position: relative;
+  display: none;
+  transition: all 1s ease-in-out; }
 
 #skatercol1 {
   width: 67.5%;
@@ -162,13 +182,14 @@ nav li {
   float: left;
   display: inline-block;
   overflow: hidden;
-  margin: 6px;
-  border: 5px white solid; }
+  margin: 1%;
+  border: 5px white solid;
+  transition: all 1s ease-in-out; }
 
 .lance {
   background-image: url(../assets/sk8er-4.png);
   background-repeat: no-repeat;
-  background-size: 140%;
+  background-size: 145%;
   background-position: right;
   position: relative; }
   .lance p {
@@ -178,7 +199,7 @@ nav li {
 .rodney {
   background-image: url(../assets/sk8er-3.png);
   background-repeat: no-repeat;
-  background-size: 140%;
+  background-size: 145%;
   background-position: left;
   position: relative; }
   .rodney p {
@@ -191,13 +212,14 @@ nav li {
   float: left;
   clear: both;
   overflow: hidden;
-  margin: 6px;
+  margin: 1%;
   border: 5px white solid;
   background-image: url(../assets/sk8er-1.png);
   background-repeat: no-repeat;
   background-size: 125%;
   background-position: center;
-  position: relative; }
+  position: relative;
+  transition: all 1s ease-in-out; }
   .steve p {
     top: 25%;
     left: 20%; }
@@ -211,9 +233,10 @@ nav li {
   border: 5px white solid;
   background-image: url(../assets/sk8er-2.png);
   background-repeat: no-repeat;
-  background-size: 265%;
+  background-size: 320%;
   background-position: 85% 30%;
-  position: relative; }
+  position: relative;
+  transition: all 1s ease-in-out; }
   .tommy p {
     top: 30%;
     left: 2%; }
@@ -227,15 +250,18 @@ nav li {
 
 #boards {
   position: absolute;
-  left: -180px;
+  left: -192px;
   top: 50px;
   font-size: 1.2em;
   background-color: #B4272E;
   height: 70px;
-  display: inline-block; }
+  display: inline-block;
+  transition: all 1s ease-in-out; }
   #boards p {
-    font-size: .85em;
-    margin: 0 0 0 2px; }
+    color: white;
+    font-size: .75em;
+    margin: 0 0 0 2px;
+    padding: 8px 3px 0 3px; }
 
 .arrowright {
   content: '';
@@ -247,12 +273,27 @@ nav li {
   display: inline-block;
   position: absolute;
   bottom: 0px;
-  left: 149px; }
+  left: 148px; }
+
+#panelBoards {
+  display: none;
+  width: 98%;
+  margin: 15px auto 0px auto;
+  height: 35px;
+  background-color: #B4272E;
+  text-align: center;
+  transition: all 1s ease-in-out; }
+  #panelBoards p {
+    font-family: "Paytone One", sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: .25em;
+    color: white; }
 
 .col1 {
-  width: 60%;
+  width: 100%;
   display: block;
-  margin: 20px auto 5px auto; }
+  margin: 1% auto 1% auto; }
 
 .skateboards {
   width: 100%;
@@ -262,16 +303,19 @@ nav li {
   overflow: hidden;
   display: inline-flex;
   flex-flow: row wrap;
+  justify-content: space-between;
   align-items: center;
   border-bottom: 3px grey solid; }
 
 .item {
   height: 180px;
-  margin: 10px 15px;
-  flex-basis: auto 2;
+  margin: 10px 3px;
   transition: all 0.5s ease-in-out; }
   .item:hover {
     height: 199px; }
+
+#phoneCol1 {
+  display: none; }
 
 .contactform {
   background-color: white;
@@ -279,7 +323,7 @@ nav li {
   font-family: "Spinnaker", sans-serif;
   border-bottom: 3px grey solid; }
   .contactform p {
-    font-size: .75em;
+    font-size: .65em;
     color: grey;
     letter-spacing: .05em;
     line-height: 1.75em; }
